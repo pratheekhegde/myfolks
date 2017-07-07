@@ -1,0 +1,31 @@
+.menu_simple ul {
+    margin: 0; 
+    padding: 0;
+    width:185px;
+    list-style-type: none;
+}
+
+.menu_simple ul li a {
+	text-decoration: none;
+    color: black; 
+    padding: 10.5px 11px;
+    background-color: #fdfbf2;
+    display:block;
+}
+  
+.menu_simple ul li a:hover, .menu_simple ul li .current {
+	color: white;
+    background-color: #0096d2;
+}
+button{
+	font-size:30px;
+	width:190px;
+	border-radius:1px;
+	text-decoration:none;
+	color:none;
+	border-color: red;
+	background-color:white;
+}
+button:hover{
+	 background-color: red;
+}
